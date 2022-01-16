@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+  transition: 0.9s;
+}
+.movies__card {
+  width: 18rem;
+}
+
+.movies__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  margin: -15px;
+}
+
+.movies__item {
+  margin: 15px;
+}
+.select {
+  width: 100%;
+  border: none;
+  background: #35283c;
+  color: white;
+}
